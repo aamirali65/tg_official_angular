@@ -1,0 +1,9 @@
+a,h1{
+    color: white;
+}
+#ori-breadcrumbs{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../../../assets/bread-bg.png);
+}

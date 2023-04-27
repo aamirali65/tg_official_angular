@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Jost:wght@200;400;500;600;700;800&amp;family=Oswald:wght@300;400;500;600;700&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap");
+.main-servis{
+    background-color: rgba(131, 131, 131, 0.367);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.iconx{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    display: flex;
+}
+.datax h1{
+    font-size: 25px;
+    margin-top: 10px ;
+    text-transform: uppercase;
+}
+.datax p{
+    font-size: 15px;
+}
+.service-box {
+    padding: 10px;
+}
+.bg{
+    background-color: rgba(131, 131, 131, 0.695);
+    border-radius: 10px;
+}
+.iconx i {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+}

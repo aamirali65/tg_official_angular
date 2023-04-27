@@ -1,0 +1,158 @@
+
+    <header id="ori-header" class="ori-header-section header-style-one" [class.sticky]="stickyHeader">
+		<div class="ori-header-content-area">
+			<div class="ori-header-content ori-header-content2">
+				<div class="brand-logo">
+					<a routerLink="/"><img src="assets/img/logo/logo-tg.png" width="300px" alt=""></a>
+				</div>
+				<div class="ori-main-navigation-area">
+					<nav class="ori-main-navigation  clearfix ul-li">
+						<ul id="main-nav" class="nav navbar-nav clearfix">
+							<li><a routerLink="/" class="activee a">Home</a></li>
+							<li class="dropdown">
+								<a class=" a">Services</a>
+								<ul class="dropdown-menu clearfix">
+									<li><a routerLink="/website-designing">Website Designing</a></li>
+									<li><a routerLink="/seo">SEO</a></li>
+									<li><a routerLink="/e-commerce">E-commerce</a></li>
+									<li><a routerLink="/explainer-videos">Explainer Videos</a></li>
+									<li><a routerLink="/flyer-design">Flyer &amp; Brochure Design</a></li>
+									<li><a routerLink="/app-development">App Development</a></li>
+									<li><a routerLink="/stationary-branding">Stationary &amp; Branding</a></li>
+									<li><a routerLink="/digital-marketing">Digital marketing</a></li>
+								</ul>
+							</li>
+							<li><a routerLink="/portfolio" class="a">Portfolio</a></li>
+							<li><a routerLink="/about-us" class=" a">About</a></li>
+							<li class="text-light">
+							
+							<a routerLink="/contact-us" class="text-light btn bg-danger">Get a quote</a>
+						
+								
+							</li>
+							<!-- <li><a href="pricing.php">pricing</a></li> -->
+						</ul>
+					</nav>
+				</div>
+				<div class="ori-header-sidebar-search d-flex align-items-center">
+					<div class="ori-search-btn">
+						<button class="search-box-outer"><i class="fal fa-search"></i></button>
+					</div>
+					<div class="ori-sidenav-btn navSidebar-button">
+						<button><i class="fal fa-bars"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="mobile_menu position-relative">
+				<div class="mobile_menu_button open_mobile_menu">
+					<i class="fal fa-bars text-dark"></i>
+				</div>
+				<div class="mobile_menu_wrap">
+					<div class="mobile_menu_overlay open_mobile_menu"></div>
+					<div class="mobile_menu_content">
+						<div class="mobile_menu_close open_mobile_menu">
+							<i class="fal fa-times text-dark" (click)="closediv()"></i>
+						</div>
+						<div class="m-brand-logo">
+							<a routerLink="/"><img src="assets/img/logo/logo-tg.png" alt=""></a>
+						</div>
+						<nav class="mobile-main-navigation  clearfix ul-li">
+							<ul id="m-main-nav" class="nav navbar-nav clearfix">
+							<li><a routerLink="/">Home</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+								<ul class="dropdown-menu clearfix" aria-labelledby="dropdownMenuLink">
+									<li><a routerLink="/website-designing" class="dropdown-item">Website Designing</a></li>
+									<li><a routerLink="/seo" class="dropdown-item">SEO</a></li>
+									<li><a routerLink="/e-commerce" class="dropdown-item">E-commerce</a></li>
+									<li><a routerLink="/explainer-videos" class="dropdown-item">Explainer Videos</a></li>
+									<li><a routerLink="/flyer-design" class="dropdown-item">Flyer &amp; Brochure Design</a></li>
+									<li><a routerLink="/app-development" class="dropdown-item">App Development</a></li>
+									<li><a routerLink="/stationary-branding" class="dropdown-item">Stationary &amp; Branding</a></li>
+									<li><a routerLink="/digital-marketing" class="dropdown-item">Digital marketing</a></li>
+								</ul>
+							<div class="dropdown-btn"><span class="far fa-arrow-right"></span></div></li>
+							
+							<li><a routerLink="/portfolio">Portfolio</a></li>
+							<li><a routerLink="/about-us">About</a></li>
+							<li><a routerLink="/contact-us">Get a quote</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+		
+			</div>
+		</div>
+	</header>   
+	<div class="search-popup">
+		<button class="close-search style-two"><span class="fal fa-times"></span></button>
+		<!-- <button class="close-search"><span class="fa fa-arrow-up"></span></button> -->
+		<form method="post" action="#">
+			<div class="form-group">
+				<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</div>
+		</form>
+	</div>
+	<!-- Sidebar sidebar Item -->
+	<div class="xs-sidebar-group info-group">
+		<div class="xs-overlay xs-bg-black">
+			<div class="row loader-area">
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+			</div>
+		</div>
+		<div class="xs-sidebar-widget bg-light">
+			<div class="sidebar-widget-container">
+				<div class="widget-heading">
+					<a href="#" class="close-side-widget">
+						<i class="fal fa-times"></i>
+					</a>
+				</div>
+				<div class="sidebar-textwidget">
+
+					<div class="sidebar-info-contents headline pera-content">
+						<div class="content-inner">
+							<div class="logo">
+								<a href="index-1.php"><img src="assets/img/logo/logo-tg.png" alt=""></a>
+							</div>
+							<div class="content-box">
+								<h5 class="text-dark">About Us</h5>
+								<p class="text text-dark">We are committed to providing our customers with exceptional service while offering our employees the best training.</p>
+							</div>
+							<div class="gallery-box ul-li">
+								<h5 class="text-dark">Gallery</h5>
+								<ul class="zoom-gallery">
+									<li><a href="assets/img/Design Material/Brochures/Auxilium Tri Fold.jpg" data-source="assets/img/Design Material/Brochures/Auxilium Tri Fold.jpg" target="_blank"><img src="assets/img/Design Material/Brochures/Auxilium Tri Fold.jpg" alt=""></a></li>
+									<li><a href="assets/img/Design Material/Stationary & Branding/Artisan.jpg" data-source="assets/img/Design Material/Stationary & Branding/Artisan.jpg" target="_blank"><img src="assets/img/Design Material/Stationary & Branding/Artisan.jpg" alt=""></a></li>
+									<li><a href="assets/img/Design Material/UI Design/website copy.jpg" data-source="assets/img/Design Material/UI Design/website copy.jpg" target="_blank"><img src="assets/img/Design Material/UI Design/website copy.jpg" alt=""></a></li>
+									<li><a href="assets/img/Design Material/UI Design/Initial Design-min.jpg" data-source="assets/img/Design Material/UI Design/Initial Design-min.jpg" target="_blank"><img src="assets/img/Design Material/UI Design/Initial Design-min.jpg" alt=""></a></li>
+									<li><a href="assets/img/Design Material/ecommerce/2.jpg" data-source="assets/img/Design Material/ecommerce/2.jpg" target="_blank"><img src="assets/img/Design Material/ecommerce/2.jpg" alt=""></a></li>
+									<li><a href="assets/img/Design Material/app develop/22.png" data-source="assets/img/Design Material/app develop/22.png" target="_blank"><img src="assets/img/Design Material/app develop/22.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="content-box">
+								<h5 class="text-dark">Social Account</h5>
+								<ul class="social-box">
+									<li><a href="https://www.facebook.com/Technologenesis" class="text-dark"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://www.instagram.com/technologenesis/" class="text-dark"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/technologenesis" class="text-dark"><i class="fab fa-linkedin "></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	

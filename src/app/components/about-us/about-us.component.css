@@ -1,0 +1,54 @@
+h1{
+    color: white;
+}
+section{
+    color: white;
+}
+.inner-boxx {
+    width: 240px;
+    height: 200px;
+    display: block;
+    padding: 18px 25px;
+    background: #66666673;
+    z-index: 1;
+    border-radius: 7px;
+    margin: 15px auto;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+.inner-boxx:hover{
+    background: #bd5355;
+    transform: translateY(-10px);
+}
+.inner-boxx:hover i{
+    color: white;
+}
+h3.heading {
+    position: relative;
+    margin: 0;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+    font-family: var(--font);
+}
+.inner-boxx i {
+    position: relative;
+    transition: 0.3s ease;
+    right: -50px;
+    top: -30px;
+    font-size: 50px;
+    padding: -76px 1px;
+    color: #bd5355;
+}.inner-boxx .count {
+    opacity: 0.1;
+    text-align: start;
+}
+.inner .about-head {
+    font-size: 36px !important;
+}
+p{
+    font-size: 15px;
+}

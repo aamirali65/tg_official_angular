@@ -1,0 +1,30 @@
+.col-md-6.caption-slidr {
+    margin: auto;
+    text-transform: uppercase;
+}
+.sliderrs{
+    display: flex;
+    height: 580px;
+}
+.col-md-6.img-slidr {
+    display: flex;
+    align-items: center;
+}
+.caption-slidr h1{
+    color: red;
+}
+ .ori-project-link {
+    opacity: 1;
+    position: relative;
+    text-align: center;
+    bottom: 0px;
+    right: 0;
+    transform: rotate(-45deg);
+    transition: 500ms all ease;
+    transition-delay: 0.4s;
+}
+
+ .ori-project-link a {
+    font-size: 65px;
+    color: var(--base-color-1);
+}

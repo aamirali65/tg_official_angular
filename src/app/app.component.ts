@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tg';
+  title = 'Technologenesis';
+  showScrollButton = false;
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    this.showScrollButton = window.pageYOffset > 300;
+  }
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }

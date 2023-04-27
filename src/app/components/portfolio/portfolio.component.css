@@ -1,0 +1,19 @@
+ul#pills-tab {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.nav-pills .nav-link{
+    font-size: 15px;
+    text-align: center;
+}
+button:hover{
+color: #921b1d;
+}
+.ori-project-item-1.position-relative {
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

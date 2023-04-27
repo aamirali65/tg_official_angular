@@ -1,0 +1,13 @@
+.cons {
+    margin-top: 100px;
+}
+
+.container {
+    color: white;
+}
+
+.service_image {
+    will-change: transform !important;
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1) !important;
+    position: relative;
+}
